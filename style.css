@@ -4,3 +4,25 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/*all similar styling*/
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.about .about-content,
+.contact .contact-content{
+    display: flex;
+    align-items: center;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
