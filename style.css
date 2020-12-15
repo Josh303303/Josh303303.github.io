@@ -147,3 +147,51 @@ section .title{
     color: #1E90FF;
     background: none;
 }
+/* Models section */
+.services, .models{
+    color:#fff;
+    background: #9f9f9f;
+}
+.models .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+}
+.models .carousel .card:hover{
+    background: #1E90FF;
+}
+.models .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.models .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #1E90FF;
+}
+.models .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!;
+    border-radius: 50%;
+    border: 2px solid #1E90FF!;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #1E90FF!;
+}
