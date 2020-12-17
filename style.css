@@ -122,7 +122,6 @@ section .title{
 }
 .about .about-content .right{
     width: 55%;
-	display: flex;
 }
 .about .about-content .right .text{
     font-size: 25px;
